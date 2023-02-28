@@ -6,7 +6,7 @@
     --button-5 : #ffd8be;
     --element-border : 2px solid rgba(241, 241, 244, 1);
     --border : rgba(241, 241, 244, 1);
-    --border-radius : 2%;
+    --border-radius : 5%;
 }
 
 * {
@@ -51,3 +51,30 @@ main {
     margin: 3rem auto;
     background-color: white;
 }
+
+#button-nav {
+    height: 4rem;
+    border-bottom: var(--element-border);
+    padding-left: 2rem;
+}
+.button-nav {
+    line-height: 4rem;
+}
+.button-style-1 {
+    padding: 0 10px;
+    height: 2rem;
+    color: white;
+    background-color: var(--button-1);
+    border-radius: 5px;
+    border: none;
+}
+.button-style-2 {
+    height: 2rem;
+    padding: 0 10px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border: var(--element-border);
+}
+
+
