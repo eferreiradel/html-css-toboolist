@@ -1,0 +1,39 @@
+::before {
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: rgb(131, 234, 184);
+}
+
+#main-header {
+    display: flex;
+    height: 5rem;
+    padding-bottom : 1rem ;
+    padding-top: 1rem ;
+    background-color: white;
+
+}
+
+#logo  {
+    background-color: ;
+    margin-left: 2rem;
+    display: flex;
+    gap: 0.5em;
+    height: 3rem;
+    
+}
+#logo h1 {
+    line-height: 3rem;
+    
+}
+
+#logo img {
+
+}
