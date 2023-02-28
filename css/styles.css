@@ -6,7 +6,26 @@
     --button-5 : #ffd8be;
     --element-border : 2px solid rgba(241, 241, 244, 1);
     --border : rgba(241, 241, 244, 1);
-    --border-radius : 5%;
+    --border-radius : 15pxß;
+}
+
+.check {
+    line-height: 1rem;
+    text-align: center;
+    border: 1px solid rgb(0, 216, 0);
+    color: rgb(0, 216, 0);
+    border-radius :50%;
+    height: 1rem;
+    width: 1rem;
+}
+.cross {
+    line-height: 1rem;
+    text-align: center;
+    border: 1px solid red;
+    color: red;
+    border-radius :50%;
+    height: 1rem;
+    width: 1rem;
 }
 
 * {
@@ -40,12 +59,10 @@ body {
     
 }
 
-#logo img {
-
-}
 
 main {
-    width: 31rem;
+    width: 95%;
+    max-width: 34rem;
     height: 40rem;
     border-radius: var(--border-radius);
     margin: 3rem auto;
@@ -77,4 +94,23 @@ main {
     border: var(--element-border);
 }
 
+.content-section {
 
+    padding: 2rem 5%;
+}
+
+details {
+    line-height: 1rem;
+}
+
+summary {
+    font-size:x-large;
+    margin-bottom: 1rem;
+}
+
+.todo-list {
+    margin-left: 2rem;
+    height: 1rem;
+    gap: 1rem;
+    display: flex;
+}
