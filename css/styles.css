@@ -4,22 +4,23 @@
     --background-color : #F8F7FF;
     --button-4 : #FFEEDD;
     --button-5 : #ffd8be;
+    --button-6 : #f38d44;
     --element-border : 2px solid rgba(241, 241, 244, 1);
     --border : rgba(241, 241, 244, 1);
     --border-radius : 15pxß;
 }
 
 .check {
-    line-height: 1rem;
+    line-height: 2rem;
     text-align: center;
-    border: 1px solid rgb(0, 216, 0);
     color: rgb(0, 216, 0);
     border-radius :50%;
     height: 1rem;
     width: 1rem;
+    border: 1px solid rgb(0, 216, 0);
 }
 .cross {
-    line-height: 1rem;
+    line-height: 2rem;
     text-align: center;
     border: 1px solid red;
     color: red;
@@ -94,13 +95,78 @@ main {
     border: var(--element-border);
 }
 
-.content-section {
-
-    padding: 2rem 5%;
+.button-style-editorial {
+    height: 2rem;
+    padding: 0 10px;
+    color: black;
+    background-color: var(--button-2);
+    border-radius: 30px;
+    border: none;
 }
 
+.button-style-q1 {
+    height: 2rem;
+    padding: 0 10px;
+    color: black;
+    background-color: var(--button-4);
+    border-radius: 30px;
+    border: none;
+}
+
+.button-style-recruiting {
+    height: 2rem;
+    padding: 0 10px;
+    color: black;
+    background-color: var(--button-5);
+    border-radius: 30px;
+    border: none;
+}
+
+.button-style-mobile {
+    height: 2rem;
+    padding: 0 10px;
+    color: black;
+    background-color: var(--button-6);
+    border-radius: 30px;
+    border: none;
+}
+
+.button-style-7 {
+    height: 2rem;
+    padding: 0 10px;
+    color: black;
+    background-color: var(--button-2);
+    border-radius: 30px;
+    border: none;
+}
+
+.content-section {
+
+    padding: 2rem 10%;
+}
+
+ul li {
+    margin: 1rem 1rem;; ;
+    width: 100%;
+    text-decoration: none;
+    background-color: #F8F7FF;
+    padding-left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 details {
-    line-height: 1rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
 }
 
 summary {
@@ -109,8 +175,9 @@ summary {
 }
 
 .todo-list {
+    line-height: 2rem;
     margin-left: 2rem;
-    height: 1rem;
+    height: 2rem;
     gap: 1rem;
     display: flex;
 }
