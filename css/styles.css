@@ -1,5 +1,12 @@
-::before {
-
+:root {
+    --button-1 : #9381FF;
+    --button-2 : #B8B8FF;
+    --background-color : #F8F7FF;
+    --button-4 : #FFEEDD;
+    --button-5 : #ffd8be;
+    --element-border : 2px solid rgba(241, 241, 244, 1);
+    --border : rgba(241, 241, 244, 1);
+    --border-radius : 2%;
 }
 
 * {
@@ -9,7 +16,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body {
-    background-color: rgb(131, 234, 184);
+    background-color: var(--background-color)
 }
 
 #main-header {
@@ -22,7 +29,6 @@ body {
 }
 
 #logo  {
-    background-color: ;
     margin-left: 2rem;
     display: flex;
     gap: 0.5em;
@@ -36,4 +42,12 @@ body {
 
 #logo img {
 
+}
+
+main {
+    width: 31rem;
+    height: 40rem;
+    border-radius: var(--border-radius);
+    margin: 3rem auto;
+    background-color: white;
 }
