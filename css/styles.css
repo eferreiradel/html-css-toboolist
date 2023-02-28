@@ -1,10 +1,10 @@
 :root {
     --button-1 : #9381FF;
-    --button-2 : #B8B8FF;
+    --button-2 : #3c3ce9;
     --background-color : #F8F7FF;
-    --button-4 : #FFEEDD;
-    --button-5 : #ffd8be;
-    --button-6 : #f38d44;
+    --button-4 : hsl(30, 88%, 55%);
+    --button-5 : #f01cbe;
+    --button-6 : #11d462;
     --element-border : 2px solid rgba(241, 241, 244, 1);
     --border : rgba(241, 241, 244, 1);
     --border-radius : 15pxß;
@@ -64,7 +64,7 @@ body {
 main {
     width: 95%;
     max-width: 34rem;
-    height: 40rem;
+    height: 95%;
     border-radius: var(--border-radius);
     margin: 3rem auto;
     background-color: white;
@@ -82,60 +82,70 @@ main {
     padding: 0 10px;
     height: 2rem;
     color: white;
-    background-color: var(--button-1);
+    background-color: var(--button-2);
     border-radius: 5px;
     border: none;
 }
 .button-style-2 {
+    color: white;
     height: 2rem;
     padding: 0 10px;
-    color: black;
-    background-color: white;
+    background-color: black;
     border-radius: 5px;
-    border: var(--element-border);
+    border: none;
 }
 
 .button-style-editorial {
+    color: white;
     height: 2rem;
     padding: 0 10px;
-    color: black;
     background-color: var(--button-2);
     border-radius: 30px;
     border: none;
 }
 
 .button-style-q1 {
+    color: white;
     height: 2rem;
     padding: 0 10px;
-    color: black;
+    color: white;
     background-color: var(--button-4);
     border-radius: 30px;
     border: none;
 }
 
 .button-style-recruiting {
+    color: white;
     height: 2rem;
     padding: 0 10px;
-    color: black;
     background-color: var(--button-5);
     border-radius: 30px;
     border: none;
 }
 
 .button-style-mobile {
+    color: white;
     height: 2rem;
     padding: 0 10px;
-    color: black;
     background-color: var(--button-6);
     border-radius: 30px;
     border: none;
 }
 
-.button-style-7 {
+.button-style-website {
     height: 2rem;
     padding: 0 10px;
-    color: black;
-    background-color: var(--button-2);
+    color: white;
+    background-color: #04d2fb;
+    border-radius: 30px;
+    border: none;
+}
+
+.button-style-sales {
+    height: 2rem;
+    padding: 0 10px;
+    color: white;
+    background-color: #7fb705;
     border-radius: 30px;
     border: none;
 }
@@ -149,7 +159,6 @@ ul li {
     margin: 1rem 1rem;; ;
     width: 100%;
     text-decoration: none;
-    background-color: #F8F7FF;
     padding-left: 2rem;
 }
 
