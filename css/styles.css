@@ -1,32 +1,36 @@
 :root {
     --button-1 : #9381FF;
-    --button-2 : #3c3ce9;
+    --button-2 : #49df5d;
+
     --background-color : #F8F7FF;
-    --button-4 : hsl(30, 88%, 55%);
-    --button-5 : #f01cbe;
-    --button-6 : #11d462;
+
+    --button-recruiting : #24da5b; 
+    --button-editorial : hsl(222, 88%, 55%);
+    --button-q1 : #f01cbe;
+    --button-website : #d41190;
+    --button-mobile : #26eede;
+    --button-sales : #efe254;
+
     --element-border : 2px solid rgba(241, 241, 244, 1);
     --border : rgba(241, 241, 244, 1);
     --border-radius : 15pxß;
 }
 
-.check {
-    line-height: 2rem;
-    text-align: center;
+.check  {
+    margin-right: 1rem;
     color: rgb(0, 216, 0);
     border-radius :50%;
-    height: 1rem;
-    width: 1rem;
     border: 1px solid rgb(0, 216, 0);
 }
 .cross {
-    line-height: 2rem;
-    text-align: center;
-    border: 1px solid red;
+    padding-top: 1rem;
+    display: inline-block;
+ 
+    margin-right: 1rem;
     color: red;
+    border: 2px solid red;
     border-radius :50%;
-    height: 1rem;
-    width: 1rem;
+
 }
 
 * {
@@ -36,7 +40,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body {
-    background-color: var(--background-color)
+    background-color: var(--background-color);
 }
 
 #main-header {
@@ -99,7 +103,7 @@ main {
     color: white;
     height: 2rem;
     padding: 0 10px;
-    background-color: var(--button-2);
+    background-color: var(--button-editorial);
     border-radius: 30px;
     border: none;
 }
@@ -109,7 +113,7 @@ main {
     height: 2rem;
     padding: 0 10px;
     color: white;
-    background-color: var(--button-4);
+    background-color: var(--button-q1);
     border-radius: 30px;
     border: none;
 }
@@ -118,7 +122,7 @@ main {
     color: white;
     height: 2rem;
     padding: 0 10px;
-    background-color: var(--button-5);
+    background-color: var(--button-recruiting);
     border-radius: 30px;
     border: none;
 }
@@ -127,7 +131,7 @@ main {
     color: white;
     height: 2rem;
     padding: 0 10px;
-    background-color: var(--button-6);
+    background-color: var(--button-mobile);
     border-radius: 30px;
     border: none;
 }
@@ -136,7 +140,7 @@ main {
     height: 2rem;
     padding: 0 10px;
     color: white;
-    background-color: #04d2fb;
+    background-color: var(--button-website);
     border-radius: 30px;
     border: none;
 }
@@ -145,7 +149,7 @@ main {
     height: 2rem;
     padding: 0 10px;
     color: white;
-    background-color: #7fb705;
+    background-color: var(--button-sales);
     border-radius: 30px;
     border: none;
 }
@@ -156,21 +160,11 @@ main {
 }
 
 ul li {
-    margin: 1rem 1rem;; ;
+    list-style-type: none;
+    margin: 1rem 1rem;
     width: 100%;
     text-decoration: none;
-    padding-left: 2rem;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 details {
