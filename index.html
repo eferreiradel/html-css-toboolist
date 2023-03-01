@@ -10,30 +10,41 @@
 </head>
 
 <body>
+
+    <!-- Header + logo -->
+
     <header id="main-header">
         <div class=="header- logo" id="logo">
             <img src="./img/Logo.png" alt="Boolean">
             <h1>Toboolist</h1>
-
         </div>
     </header>
+
+    <!-- ------------ -->
     <main>
+        
+        <!-- Button-nav -->
         <section id="button-nav" class="button-nav">
             <button class="button-style-1">Add Task</button>
             <button class="button-style-2"> Add Section</button>
         </section>
+        <!-- ---------- -->
+
         <section id="tasks" class="content-section">
+
+            <!-- New task -->
 
             <details class="detail-list">
                 <summary><strong>New Task</strong></summary>
                 <ul>
                     <li>
-                        <span class="check">&check;</span> Quaterly Newsletter <button
+                        <div class="check"></div> Quaterly Newsletter <button
                             class="button-style-editorial">Editorial</button>
                     </li>
                 </ul>
             </details>
-
+            
+            <!-- Today -->
 
             <details class="detail-list">
                 <summary><strong>Today</strong></summary>
@@ -43,7 +54,7 @@
                         Recruiting blog post <button class="button-style-editorial">Editorial</button>
                     </li>
                     <li>
-                        <input type="checkbox">
+                        <input type="checkbox"> 
                         Mobile app launch <button class="button-style-q1">Q1</button>
                     </li>
                     <li>
@@ -57,11 +68,14 @@
                 </ul>
                 </div>
             </details>
+
+            <!-- Upcoming -->
+            
             <details class="detail-list">
                 <summary><strong>Upcoming</strong></summary>
                 <ul>
                     <li>
-                        <input type="checkbox">
+                        <span class="cross"> &#x2716; </span>
                         Schedule with Alex
                     </li>
                     <li>
@@ -74,7 +88,8 @@
                     </li>
                     <li>
                         <input type="checkbox">
-                        Summit update to mobile stereofronts <button class="button-style-editorial">Editorial</button>
+                        Summit update to mob
+                        ile stereofronts <button class="button-style-editorial">Editorial</button>
                     </li>
                 </ul>
                 </div>
